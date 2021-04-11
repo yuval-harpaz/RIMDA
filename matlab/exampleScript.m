@@ -1,5 +1,4 @@
 
-cd data
 % get topography of left hand stimulation field
 load avgFilt avg1_handL
 MHL = avg1_handL.avg(:,138);
