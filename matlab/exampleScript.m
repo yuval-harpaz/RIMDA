@@ -1,12 +1,10 @@
 
 % get topography of left hand stimulation field
-load avgFilt avg1_handL
+load avg avg1_handL avg1_handR avg1_footL
 MHL = avg1_handL.avg(:,138);
 % right hand
-load avgFilt avg1_handR
 MHR = avg1_handR.avg(:,138);
 % left foot
-load avgFilt avg1_footL
 MF = avg1_footL.avg(:,180);
 % merge fields of 3 dipoles
 M = MF+MHR+MHL;
