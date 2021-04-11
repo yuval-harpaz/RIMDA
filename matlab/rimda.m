@@ -50,7 +50,7 @@ end
 % it returns current for sources that are strong maxima. pnti is the index
 % of the chosen points. fwd is the reconstructed field based on these
 % sources.
-[current,~,pnti,fwd] = getCurrent(Pow,pnt,M,gain,30,0.3,false);
+[current,~,pnti,fwd] = getCurrent(Pow,pnt,M,gain,30,0.3);
 % plot headshape and selected solutions
 figure;
 plot3(hs(:,1),hs(:,2),hs(:,3),'.k')
